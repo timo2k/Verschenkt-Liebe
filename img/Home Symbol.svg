@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="202.813 469.002 54 48.488">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Home_Symbol" data-name="Home Symbol" transform="translate(-219 6)">
+    <path id="Path_3" data-name="Path 3" class="cls-1" d="M0,0H16.49V16.49H0Z" transform="translate(454.026 495)"/>
+    <path id="Path_4" data-name="Path 4" class="cls-2" d="M54,4H6v6H54Zm3,30V28L54,13H6L3,28v6H6V52H36V34H48V52h6V34ZM30,46H12V34H30Z" transform="translate(418.813 459.002)"/>
+  </g>
+</svg>

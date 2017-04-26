@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1213 463.916 58.084 58.084">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Info_Symbol" data-name="Info Symbol" transform="translate(890 -15.084)">
+    <path id="Path_1" data-name="Path 1" class="cls-1" d="M0,0H58.084V58.084H0Z" transform="translate(323 479)"/>
+    <path id="Path_2" data-name="Path 2" class="cls-2" d="M23.782,38.3h4.84V23.782h-4.84ZM26.2,2A24.2,24.2,0,1,0,50.4,26.2,24.211,24.211,0,0,0,26.2,2Zm0,43.563A19.361,19.361,0,1,1,45.563,26.2,19.387,19.387,0,0,1,26.2,45.563Zm-2.42-26.622h4.84V14.1h-4.84Z" transform="translate(325.84 481.84)"/>
+  </g>
+</svg>
