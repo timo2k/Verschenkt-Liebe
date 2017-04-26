@@ -194,26 +194,53 @@ nav ul li {
 /* ########################################################## */
 
 .vl-content-box {
-	background-color: #585858;
+	background-color: rgba(255,255,255,0.25);
 	padding: 1em;
 	height: 600px;
 	margin-bottom: 100px;
+	border: 1px solid #95989A;
 }
 
-.vl-content-box-image {
-	padding-top: 1em;
-	padding-bottom: 1em;
-	background-color: #3D3D3D
+.vl-content-box-image-left {
+	padding-top: 1.7em;
+	padding-bottom: 1.7em;
+	background-color: #3D3D3D;
+	background-image: url(../img/headerLinks.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	border-top: 1px solid #95989A;
+	border-left: 1px solid #95989A;
+	border-right: 1px solid #95989A;
 }
 
-.vl-content-box-image h3 {
-	margin-bottom: 0;
-	text-align: center;
+.vl-content-box-image-right {
+	padding-top: 1.7em;
+	padding-bottom: 1.7em;
+	background-color: #3D3D3D;
+	background-image: url(../img/headerRechts.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	border-top: 1px solid #95989A;
+	border-left: 1px solid #95989A;
+	border-right: 1px solid #95989A;
 }
 
 .vl-content-box-image h2 {
+	text-transform: uppercase;
+	font-size: 3em;
+	margin-bottom: 0;
 	text-align: center;
 	margin-top: 0;
+}
+
+.vl-content-box-image h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;	
 }
 
 /* ########################################################## */
