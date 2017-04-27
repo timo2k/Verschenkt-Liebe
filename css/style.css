@@ -23,7 +23,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: 50% 83px;
 	background-size: 1920px 799px;
-	font-family: "acumin-pro", sans-serif;;
+	font-family: "acumin-pro", sans-serif;
 }
 
 a {
@@ -110,13 +110,13 @@ a {
 /* NAVIGATION ############################################### */
 /* ########################################################## */
 
-nav ul {
+.vl-mainnavi ul {
 	padding: 0;
 	margin-bottom: 0;
 	margin-top: 1.5em;
 }
 
-nav ul li {
+.vl-mainnavi ul li {
 	list-style-type: none;
 	display: inline-block;
 	margin-right: 75px;
@@ -196,9 +196,19 @@ nav ul li {
 .vl-content-box {
 	background-color: rgba(255,255,255,0.25);
 	padding: 1em;
-	height: 600px;
+	height: 650px;
 	margin-bottom: 100px;
 	border: 1px solid #95989A;
+}
+
+.vl-content-box p {
+	line-height: 1.9em;
+	font-weight: lighter;	
+}
+
+.vl-content-box ul li {
+	line-height: 1.9em;
+	font-weight: lighter;
 }
 
 .vl-content-box-image-left {
@@ -243,10 +253,102 @@ nav ul li {
 	font-weight: normal;	
 }
 
+:focus {
+	outline: 0;
+}
+
+.vl-input {
+	padding-left: 1em;
+	width: 100%;
+	margin-bottom: 1em;
+	background-color: #0B0B0B;
+	border: 1px solid #838383;
+	color: #B8B8B8;
+	font-size: 0.9em;
+	height: 40px;
+}
+
+.vl-input:focus {
+	border: 1px solid #327B34;
+}
+
+.vl-button {
+	width: 300px;
+	height: 45px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	color: #ffffff;
+	background-color: #030303;
+	border-bottom: 4px solid #327B34;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	display: block;
+}
+
+.vl-button:hover {
+	background-color: #151515;
+}
+
 /* ########################################################## */
 /* FOOTER ################################################### */
 /* ########################################################## */
 
 footer {
-	background-color: #606060
+padding-top: 1em;
+background: #191919; /* Old browsers */
+background: -moz-linear-gradient(top,  #191919 0%, #1f1f1f 22%, #1f1f1f 22%, #1f1f1f 100%); 
+background: -webkit-linear-gradient(top,  #191919 0%,#1f1f1f 22%,#1f1f1f 22%,#1f1f1f 100%); 
+background: linear-gradient(to bottom,  #191919 0%,#1f1f1f 22%,#1f1f1f 22%,#1f1f1f 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191919', endColorstr='#1f1f1f',GradientType=0 ); 
+}
+
+footer h4 {
+	color: #ADADAD;
+	font-size: 2em;
+	margin: 0;
+}
+
+footer p {
+	color: #ADADAD;
+	font-size: 0.8em;
+}
+
+.vl-footer-logo {
+	margin-top: 3em;
+ 	max-width: 350px;
+}
+
+.vl-copyright {
+	color: #ADADAD;
+	font-size: 0.8em;
+}
+
+.vl-imprint {
+	padding: 0;
+}
+
+.vl-imprint li {
+	list-style-type: none;
+	display: inline-block;
+	color: #6E6E6E;
+	font-size: 0.7em;
+}
+
+.vl-imprint li:first-child:after {
+	content: " | ";
+}
+
+.vl-imprint li a {
+	color: #6E6E6E;
+}
+
+.vl-sitemap {
+	padding-left: 20px;
+	font-size: 0.8em;
+}
+
+.vl-sitemap li a {
+	color: #ADADAD;
 }
