@@ -68,15 +68,21 @@ a {
 /* SPALTEN ################################################## */
 /* ########################################################## */
 
-@media screen and (max-width:600px) {
-	.small-1 {width: 100%;}	
+@media screen and (max-width:800px) {
+	.small-1 {width: 50%;}
+	.small-2 {width: 100%;}	
+	
 }
 
-@media screen and (min-width:600px) and (max-width:1000px) {
-	.medium-1 {width:50%;}
-	.medium-2 {width:100%;}
+@media screen and (min-width:800px) and (max-width:1000px) {
+	.medium-1 {width:25%;}
+	.medium-2 {width:50%;}
+	.medium-3 {width:75%;}
+	.medium-4 {width:100%;}
 	
-	.medium-offset-1 {margin-left:50%;}
+	.medium-offset-1 {margin-left:25%;}
+	.medium-offset-2 {margin-left:50%;}
+	.medium-offset-3 {margin-left:75%;}
 }
 
 @media screen and (min-width:1000px) {
@@ -217,7 +223,8 @@ a {
 .vl-content-box {
 	background-color: rgba(255,255,255,0.25);
 	padding: 1em;
-	height: 650px;
+
+	overflow: hidden;
 	margin-bottom: 100px;
 	border: 1px solid #95989A;
 }
@@ -374,3 +381,36 @@ footer p {
 .vl-sitemap li a {
 	color: #ADADAD;
 }
+
+/* ########################################################## */
+/* MEDIA QUERYS ############################################# */
+/* ########################################################## */
+
+@media (max-width: 1137px) and (min-width: 800px){
+	
+	.vl-teaser-headline {
+	font-size: 1.7em;
+	}
+	
+	.vl-home-icon {
+	height: 24px;
+
+	}
+
+	.vl-teaser-icon {
+	height: 40px;
+	}
+
+}
+
+@media (max-width: 933px) and (min-width: 800px){
+	.vl-content-box-image h2 {
+		font-size: 2em;
+	}
+	
+	.vl-content-box-image h3 {
+		font-size: 1em;
+		
+	}
+}
+
