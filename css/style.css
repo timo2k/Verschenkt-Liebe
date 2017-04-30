@@ -68,15 +68,21 @@ a {
 /* SPALTEN ################################################## */
 /* ########################################################## */
 
-@media screen and (max-width:600px) {
-	.small-1 {width: 100%;}	
+@media screen and (max-width:800px) {
+	.small-1 {width: 50%;}
+	.small-2 {width: 100%;}	
+	
 }
 
-@media screen and (min-width:600px) and (max-width:1000px) {
-	.medium-1 {width:50%;}
-	.medium-2 {width:100%;}
+@media screen and (min-width:800px) and (max-width:1000px) {
+	.medium-1 {width:25%;}
+	.medium-2 {width:50%;}
+	.medium-3 {width:75%;}
+	.medium-4 {width:100%;}
 	
-	.medium-offset-1 {margin-left:50%;}
+	.medium-offset-1 {margin-left:25%;}
+	.medium-offset-2 {margin-left:50%;}
+	.medium-offset-3 {margin-left:75%;}
 }
 
 @media screen and (min-width:1000px) {
@@ -217,7 +223,8 @@ a {
 .vl-content-box {
 	background-color: rgba(255,255,255,0.25);
 	padding: 1em;
-	height: 650px;
+
+	overflow: hidden;
 	margin-bottom: 100px;
 	border: 1px solid #95989A;
 }
@@ -294,10 +301,10 @@ a {
 }
 
 .vl-button {
-	width: 300px;
+	width: 70%;
 	height: 45px;
-	margin-right: auto;
 	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 0;
 	color: #ffffff;
 	background-color: #030303;
@@ -374,3 +381,96 @@ footer p {
 .vl-sitemap li a {
 	color: #ADADAD;
 }
+
+/* ########################################################## */
+/* MEDIA QUERYS ############################################# */
+/* ########################################################## */
+
+@media (max-width: 1137px) and (min-width: 800px){
+	
+	.vl-teaser-headline {
+	font-size: 1.7em;
+	}
+	
+	.vl-home-icon {
+	height: 24px;
+
+	}
+
+	.vl-teaser-icon {
+	height: 40px;
+	}
+
+}
+
+@media (max-width: 933px) and (min-width: 800px){
+	
+	.vl-mainnavi ul li {
+		margin-right: 40px;
+	}
+	
+	.vl-content-box-image h2 {
+		font-size: 2em;
+	}
+	
+	.vl-content-box-image h3 {
+		font-size: 1em;
+		
+	}
+}
+
+@media (max-width: 800px) {
+	
+	
+	.vl-nav-button {
+	margin-top: 18px;
+	display: block;
+	height: 40px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: 98% center;
+	background-image: url(../img/burgericon.svg);
+	cursor: pointer;
+	}
+	
+	.vl-mainnavi ul {
+		overflow: hidden;
+		height: 0;
+	}
+	
+	.vl-mainnavi ul.open {
+		height: auto;
+	}
+	
+	.vl-mainnavi li {
+	display: block;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	float: none;
+	width: 100%;
+	border-bottom: 1px solid rgba(35,35,35,1.00);
+	}
+	
+	.vl-nav-box {
+		height:auto;
+		background-image: none;
+		background-color:#161616;
+	}
+}
+
+@media (max-width: 390px) {
+	.vl-home-icon {
+		height: 30px;
+
+	}
+
+	.vl-teaser-icon {
+		height: 40px;
+	}
+
+	.vl-teaser-headline {
+		font-size: 2em;
+	}
+	
+}
+
